@@ -2,7 +2,7 @@
 #define TRIG_H
 struct point2D{
 	double x;
-	double y
+	double y;
 };
-struct point2D rotatePoint(double x, double y, double rads);
+struct point2D rotatePoint(struct point2D, double rads);
 #endif
